@@ -1,5 +1,6 @@
 import Link from "next/link";
 import StudentInfo from "./student-info";
+import GoBack from "../go-back";
 
 export default function Page() {
   return (
@@ -7,8 +8,7 @@ export default function Page() {
       <h1>Shopping List</h1>
 
       <StudentInfo />
-
-      <Link href="/">← Back to Home</Link>
+      <GoBack />
     </main>
   );
 }
